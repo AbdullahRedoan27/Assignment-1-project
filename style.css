@@ -44,7 +44,7 @@ body{
     display: flex;
     margin-bottom: 35px;
 }
-.one-fifth-width {
+.one-fifth-width{
     width: 20%;
 }
 #margin-left{
@@ -73,6 +73,7 @@ input{
 }
 .donate-plan h2{
     margin-top: 150px;
+    font-size: 35px;
 }
 .donate-plan p{
     margin-left: 200px;
@@ -122,4 +123,66 @@ input{
     padding: 100px 15px 15px 35px;
     border: 2px solid #1b8083;
     border-radius:45px 10px;
+}
+#missions{
+    margin-top: 100px;
+}
+.half-width{
+    width: 50;
+}
+#featured{
+    color: white;
+    width: 95%;
+    background-image: url(Images/flood.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-y: 5%;
+    background-position-x: 45%;
+    margin: 25px;
+    background-color: #005daf21;
+    border: 2px solid #005daffa;
+    border-radius: 45px 10px;
+    padding: 430px 25px 10px 25px;
+}
+#featured p{
+    width: 100%;
+    text-align: justify;
+}
+#flex-h2{
+    display: flex;
+    margin-bottom: 0;
+}
+#featured-h2{
+    color: white;
+    margin-left: 200px;
+    font-size: 35px;
+}
+#campaign-h2{
+    color: white;
+    margin-left: 300px;
+    font-size: 35px;
+}
+#current-operations{
+    display: flex;
+}
+.side-tiles{
+    color: white;
+    background-color: #005daf21;
+    border: 2px solid #005daf;
+    display: flex;
+    width: 70%;
+    margin: 25px 25px 25px 5px;
+    padding: 5px 5px 5px 140px;
+    background-image: url(Images/houses&flood.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 1.5% 50%;
+    border-radius: 25px 5px;
+    
+}
+.side-tiles p{
+    width: 90%;
+}
+.read-more{
+    color: white;
 }
