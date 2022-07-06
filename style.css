@@ -67,3 +67,59 @@ input{
     margin-top: 0;
     margin-bottom: 50px;
 }
+.donate-plan{
+    text-align: center;
+    color: white;
+}
+.donate-plan h2{
+    margin-top: 150px;
+}
+.donate-plan p{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.donate-plan-flex{
+    display: flex;
+    color: white;
+}
+.one-third-width{
+    width: 30%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#food-service{
+    background-image: url(Images/foodpng.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 10%;
+    background-size: 20%;
+    background-color: #005cad28;
+    margin: 25px;
+    padding: 100px 15px 15px 35px;
+    border: 2px solid #005daf;
+    border-radius: 45px 10px;
+}
+#medical{
+    background-image: url(Images/medical.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 10%;
+    background-size: 20%;
+    background-color: #a06c1828;
+    margin: 25px;
+    padding: 100px 15px 15px 35px;
+    border: 2px solid #a06c18;
+    border-radius:45px 10px;
+}
+#shelter{
+    background-image: url(Images/shelter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 10%;
+    background-size: 20%;
+    background-color: #1b808328;
+    margin: 25px;
+    padding: 100px 15px 15px 35px;
+    border: 2px solid #1b8083;
+    border-radius:45px 10px;
+}
