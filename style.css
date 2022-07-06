@@ -1,17 +1,18 @@
 body{
     margin: 0px;
     background-color: #141414;
+    font-family:  'Lato', sans-serif;
 }
 .heading-part{
     background-image: url(Images/Earthquake.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 200px;
+    text-align: center;
 }
 .heading-part h1{
     color: white;
-    font-family:  'Lato', sans-serif;
-    font-size: 73px;
+    font-size: 72px;
     font-weight: 800;
     text-align: center;
     margin-top: 55px;
@@ -30,6 +31,39 @@ body{
     padding: 12px;
     border-radius: 10px;
 }
-.center-align{
+.donate-today{
+    color: white;
     text-align: center;
+}
+.donate-today h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.flexible-display{
+    display: flex;
+    margin-bottom: 35px;
+}
+.one-fifth-width {
+    width: 20%;
+}
+#margin-left{
+    margin-left: 300px;
+}
+#margin-right{
+margin-right: 300px;
+}
+#border{
+    background-color:#005daf40 ;
+    border: 2px solid #005daf;
+}
+input{
+    width: 15%;
+    border:3px solid #005daf;
+    border-radius: 5px;
+    background-color: #005daf2a;
+}
+#custom-amount{
+    margin-top: 0;
+    margin-bottom: 50px;
 }
