@@ -212,3 +212,15 @@ border-radius: 10px;
     border: 2px solid #926214;
     border-radius: 8px;
 }
+footer{
+    background-color: #000000;
+    padding: 15px;
+    margin-top: 20px;
+}
+footer h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0%;
+}
