@@ -23,7 +23,7 @@ body{
     text-align: center;
     margin-bottom: 55px;
 }
-.button{
+.donate-now-button{
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -42,7 +42,7 @@ body{
 }
 .flexible-display{
     display: flex;
-    margin-bottom: 35px;
+    margin:40px 0 40px 0;
 }
 .one-fifth-width{
     width: 20%;
@@ -73,14 +73,14 @@ input{
     color: white;
 }
 .donate-plan h2{
-    margin-top: 150px;
+    margin-top: 100px;
     font-size: 35px;
 }
 .donate-plan p{
     margin-left: 200px;
     margin-right: 200px;
 }
-.donate-plan-flex{
+.donate-plan-boxes{
     display: flex;
     color: white;
 }
@@ -128,12 +128,13 @@ input{
 #missions{
     margin-top: 100px;
 }
-.half-width{
-    width: 50;
+#flex-h2{
+    display: flex;
+    margin-bottom: 0;
 }
 #featured{
     color: white;
-    width: 95%;
+    width: 110%;
     background-image: url(Images/flood.png);
     background-repeat: no-repeat;
     background-size: 90%;
@@ -143,19 +144,15 @@ input{
     background-color: #005daf21;
     border: 2px solid #005daffa;
     border-radius: 45px 10px;
-    padding: 430px 25px 10px 25px;
+    padding: 370px 25px 10px 25px;
 }
 #featured p{
     width: 100%;
     text-align: justify;
 }
-#flex-h2{
-    display: flex;
-    margin-bottom: 0;
-}
 #featured-h2{
     color: white;
-    margin-left: 200px;
+    margin-left: 150px;
     font-size: 35px;
 }
 #campaign-h2{
@@ -166,33 +163,45 @@ input{
 #current-operations{
     display: flex;
 }
+.half-width{
+    width: 50;
+}
 .side-tiles{
     color: white;
     background-color: #005daf21;
     border: 2px solid #005daf;
     display: flex;
     width: 70%;
-    margin: 25px 25px 25px 5px;
-    padding: 5px 5px 5px 140px;
+    margin: 25px 0px 20px 25px;
+    padding: 5px 0px 5px 150px;
     background-image: url(Images/houses&flood.png);
     background-repeat: no-repeat;
-    background-size: 20%;
-    background-position: 1.5% 50%;
+    background-size: 18%;
+    background-position: 2% 50%;
     border-radius: 25px 5px;
-    
 }
 .side-tiles p{
-    width: 90%;
+    width: 100%;
 }
 .read-more{
     color: white;
 }
-#get-my-updates{
+#medical-kits{
+    background-image: url(Images/first-aid.jpeg);
+}
+#food-donation{
+    background-image: url(Images/food-donation.jpg);
+}
+#charity-health{
+    background-image: url(Images/Charity\ health.jpg);
+}
+#get-our-updates{
     color: white;
     text-align: center;
 }
-#get-my-updates h2{
+#get-our-updates h2{
 font-size: 35px;
+margin-top: 100px;
 }
 #email-input{
     margin-top: 50px;
